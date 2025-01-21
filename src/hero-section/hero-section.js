@@ -6,9 +6,9 @@ export function HeroSection() {
             <div className="d-flex p-1 text-danger align-items-center justify-content-center">
                 <div className="d-flex align-items-center border border-1 border-danger gap-2 rounded-pill p-1">
                     <div className=" d-flex  align-items-center p-1">
-                        <p className="border border-1 border-danger rounded-pill text text-danger mb-0 p-1">New Feature</p>
+                        <p className="border border-1 border-danger rounded-pill text text-danger mb-0 p-1 fs-12">New Feature</p>
                     </div>
-                    <p className="mb-0 text">
+                    <p className="mb-0 fs-12 text">
                         Check out the team dashboard <span className="bi bi-arrow-right"></span>
                     </p>
                 </div>
@@ -23,7 +23,7 @@ export function HeroSection() {
                 <button className=' btn btn-danger buttons rounded-pill'>Sign up</button>
             </div>
             <div className="mt-5">
-                <img src="/assests/img/image 1.png" alt=""/>
+                <img src="/assests/img/image 1.png" alt="" className="img-fluid"/>
                 <div>
                 <SocialSection/>
                 </div>

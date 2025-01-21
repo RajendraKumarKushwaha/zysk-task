@@ -11,6 +11,7 @@ function App() {
 
     <>
       <Header />
+      <hr className='m-0 border border-1 '/>
       <HeroSection />
      
 
